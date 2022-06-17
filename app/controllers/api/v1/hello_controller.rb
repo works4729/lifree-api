@@ -1,5 +1,5 @@
 class Api::V1::HelloController < ApplicationController
     def index
-        render json: "Hello World!"
+        render json: "Could make sure Auto deployment"
     end
 end
