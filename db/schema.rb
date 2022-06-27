@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2022_06_23_072514) do
     t.string "name", null: false
     t.string "email", null: false
     t.string "password_digest", null: false
-    t.integer "phone_number"
+    t.string "phone_number", null: false
     t.boolean "is_phone_number_authenticated", default: false, null: false
     t.boolean "admin", default: false, null: false
     t.datetime "created_at", precision: 6, null: false

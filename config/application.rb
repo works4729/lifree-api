@@ -31,6 +31,8 @@ module App
     config.i18n.default_locale = :ja
 
     config.add_autoload_paths_to_load_path = false
+    
+    config.autoload_paths += %W(#{config.root}/lib/validator)
 
     # Configuration for the application, engines, and railties goes here.
     #
