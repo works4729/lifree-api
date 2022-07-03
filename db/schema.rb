@@ -20,7 +20,22 @@ ActiveRecord::Schema.define(version: 2022_06_23_072514) do
     t.string "email", null: false
     t.string "password_digest", null: false
     t.string "phone_number", null: false
+    t.string "last_name"
+    t.string "first_name"
+    t.string "last_name_kana"
+    t.string "first_name_kana"
+    t.datetime "birthday"
+    t.string "postcode"
+    t.string "country"
+    t.string "prefecture"
+    t.string "city"
+    t.string "block"
+    t.string "building"
+    t.string "identification"
+    t.text "profile"
     t.boolean "is_phone_number_authenticated", default: false, null: false
+    t.boolean "is_identification_authenticated", default: false, null: false
+    t.boolean "is_all_present", default: false, null: false
     t.boolean "admin", default: false, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
