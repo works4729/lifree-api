@@ -1,0 +1,29 @@
+********************************************** 1. row ********************
+**************************
+                             id: 1
+                           name: test
+                          email: test@gmail.com
+                password_digest: $2a$12$3uJQJzMg7FnsdFE60tsVwecl1Fa7D.5bWw
+UdGFt2VyQfql5GssasO
+                   phone_number: 09091514729
+                      last_name: 山田
+                     first_name: 太郎
+                 last_name_kana: ヤマダ
+                first_name_kana: タロウ
+                       birthday: 1997-12-15 00:00:00 +0900
+                      post_code: 271-0077
+                        country: 日本
+                     prefecture: 千葉県
+                           city: 松戸市
+                          block: 根本234-7
+                       building: グリーンヒルズ松戸　201
+                 identification: 写真
+                        profile: 
+  is_phone_number_authenticated: true
+is_identification_authenticated: true
+                 is_all_present: false
+                          admin: false
+                     created_at: 2022-07-02 13:44:13 +0900
+                     updated_at: 2022-07-02 13:44:13 +0900
+1 row in set
+
